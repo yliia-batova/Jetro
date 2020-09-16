@@ -1,3 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: green;
+}
+
+header {
+    background-color: hotpink;
+}
