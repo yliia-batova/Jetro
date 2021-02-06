@@ -1,0 +1,132 @@
+@media(max-width: 960px) {
+    .slider__info {
+        left: 65px;
+    }
+    .slick-track {
+        display: flex;
+    }
+    .slider__nav-img .slider__img-slick {
+        width: 100%;
+        height: 100%;
+    }
+    .slider__nav .slick-track .slick-slide+.slick-slide {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 900px) {
+    .work {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 890px) {
+    .slider__item {
+        display: flex;
+    }
+}
+
+@media (max-width: 870px) {
+    .item__title {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 810px) {
+    .item__title {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header__menu-btn {
+        display: block;
+    }
+    .header__menu .menu {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 79px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+    .header__menu .menu__item {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 5px;
+    }
+    .items {
+        padding-bottom: 15px;
+    }
+    .items__inner {
+        flex-direction: column;
+    }
+    .item {
+        max-width: 960px;
+        margin: 0;
+    }
+    .item__title {
+        line-height: 49px;
+        margin-bottom: 10px;
+    }
+    .item__text {
+        margin-bottom: 15px;
+    }
+    .item__text-link {
+        display: inline-block;
+        color: #e8663c;
+        cursor: pointer;
+    }
+    .item__link {
+        display: none;
+    }
+    .footer__inner {
+        display: block;
+        padding: 32px;
+    }
+    .footer__item {
+        max-width: 100%;
+    }
+    .footer__item--contact {
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 560px) {
+    .slider__info {
+        right: 65px;
+        text-align: center;
+        padding: 10px;
+    }
+    .slider__nav {
+        display: none;
+    }
+    .items {
+        padding-top: 15px;
+    }
+    .works__inner-item {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .work {
+        max-width: 50%;
+        margin-bottom: 23px;
+    }
+}
+
+@media(max-width: 485px) {
+    .work {
+        max-width: 35%;
+        margin-bottom: 23px;
+    }
+}
+
+@media(max-width: 430px) {
+    .slider__info {
+        right: 40px;
+        left: 40px;
+    }
+}

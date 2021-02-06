@@ -1,13 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jetro</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
+
 <body>
-    <header></header>
-    
-    <script src="js/main.js"></script>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="header__logo" href="#">
+          <img class="header__logo-img" src="images/logo.png" alt="logo">
+        </a>
+        <nav class="header__menu">
+          <!-- Кнопка "header__menu-btn" для разрешения экрана меньше 767px  -->
+          <div class="header__menu-btn">
+            <div class="header__menu-line"></div>
+            <div class="header__menu-line"></div>
+            <div class="header__menu-line"></div>
+            <div class="header__menu-line"></div>
+          </div>
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link menu__link--active" href="#">
+                home
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                about us
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                blog
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                portfolio
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                contact us
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="slider ears">
+      <div class="container">
+        <div class="slider__inner">
+          <div class="slider__item">
+            <div class="slider__info">
+              <div class="slider__heading">
+                slide one
+              </div>
+              <div class="slider__text">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel.
+                Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire
+                convenire his ea.
+              </div>
+            </div>
+            <div class="slider__wrapper"><img class="slider__img" src="images/back-img.jpg"
+                alt="yellow cake and others"></div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__info">
+              <div class="slider__heading">
+                slide two
+              </div>
+              <div class="slider__text">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel.
+                Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire
+                convenire his ea.
+              </div>
+            </div>
+            <div class="slider__wrapper"><img class="slider__img" src="images/slider-two.jpg" alt="giraffe"></div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__info">
+              <div class="slider__heading">
+                slide three
+              </div>
+              <div class="slider__text">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel.
+                Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire
+                convenire his ea.
+              </div>
+            </div>
+            <div class="slider__wrapper"><img class="slider__img" src="images/slider-three.jpg" alt="plane"></div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__info">
+              <div class="slider__heading">
+                slide four
+              </div>
+              <div class="slider__text">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel.
+                Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire
+                convenire his ea.
+              </div>
+            </div>
+            <div class="slider__wrapper"><img class="slider__img" src="images/slider-four.jpg" alt="woman"></div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__info">
+              <div class="slider__heading">
+                slide five
+              </div>
+              <div class="slider__text">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel.
+                Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire
+                convenire his ea.
+              </div>
+            </div>
+            <div class="slider__wrapper"><img class="slider__img" src="images/slider-five.jpg" alt="comic"></div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__info">
+              <div class="slider__heading">
+                slide six
+              </div>
+              <div class="slider__text">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel.
+                Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire
+                convenire his ea.
+              </div>
+            </div>
+            <div class="slider__wrapper"><img class="slider__img" src="images/slider-six.jpg" alt="ice lolly"></div>
+          </div>
+        </div>
+        <div class="slider__nav">
+          <div class="slider__nav-img"><img class="slider__img-slick" src="images/slider-one.jpg"
+              alt="yellow cake and others"></div>
+          <div class="slider__nav-img"><img class="slider__img-slick" src="images/slider-two.jpg" alt="giraffe"></div>
+          <div class="slider__nav-img"><img class="slider__img-slick" src="images/slider-three.jpg" alt="plane"></div>
+          <div class="slider__nav-img"><img class="slider__img-slick" src="images/slider-four.jpg" alt="woman"></div>
+          <div class="slider__nav-img"><img class="slider__img-slick" src="images/slider-five.jpg" alt="comic"></div>
+          <div class="slider__nav-img"><img class="slider__img-slick" src="images/slider-six.jpg" alt="ice lolly"></div>
+        </div>
+      </div>
+    </section>
+    <section class="items">
+      <div class="container">
+        <div class="items__inner">
+          <div class="item">
+            <div class="item__title item__title--icon-1">
+              Check out my latest
+              portfolio items
+            </div>
+            <div class="item__text">
+              Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus.
+              Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi
+              erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis.
+              Aenean sodales nibh non lectus tempor a interdum justo ultricies.
+              <span class="item__text-link"><a class="item__text-more" href="#">>>></a></span>
+            </div>
+            <a href="#" class="item__link">
+              More
+            </a>
+          </div>
+          <div class="item">
+            <div class="item__title item__title--icon-2">
+              Offer Top Notch Quality
+              Work & Services
+            </div>
+            <div class="item__text">
+              Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus.
+              Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat,
+              porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean
+              sodales nibh non lectus tempor a interdum justo ultricies.
+              <span class="item__text-link"><a class="item__text-more" href="#">>>></a></span>
+            </div>
+            <a href="#" class="item__link">
+              More
+            </a>
+          </div>
+          <div class="item">
+            <div class="item__title item__title--icon-3">
+              Follow Me on Twitter,
+              Facebook & Pinterest
+            </div>
+            <div class="item__text">
+              Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus.
+              Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat,
+              porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean
+              sodales nibh non lectus tempor a interdum justo ultricies.
+              <span class="item__text-link"><a class="item__text-more" href="#">>>></a></span>
+            </div>
+            <a href="#" class="item__link">
+              More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works">
+      <div class="container">
+        <div class="works__title">
+          <span class="works__title-text">
+            Recent Works
+          </span>
+        </div>
+        <div class="works__inner">
+          <div class="works__inner-item">
+
+            <article class="work">
+              <a href="#">
+                <img class="work__img" src="images/works-1.jpg" alt="man">
+                <div class="work__text">
+                  <div class="work__title">
+                    Character Design
+                  </div>
+                  <time class="work__date">June 15, 2012</time>
+                </div>
+              </a>
+            </article>
+
+            <article class="work">
+              <a href="#">
+                <img class="work__img" src="images/works-2.jpg" alt="giraffe">
+                <div class="work__text">
+                  <div class="work__title">
+                    Brochure Design
+                  </div>
+                  <time class="work__date">June 15, 2012</time>
+                </div>
+              </a>
+            </article>
+
+            <article class="work">
+              <a href="#">
+                <img class="work__img" src="images/works-3.jpg" alt="Social Media Buttons">
+                <div class="work__text">
+                  <div class="work__title">
+                    Social Media Buttons
+                  </div>
+                  <time class="work__date">June 15, 2012</time>
+                </div>
+              </a>
+            </article>
+
+            <article class="work">
+              <a href="#">
+                <img class="work__img" src="images/works-4.jpg" alt="Amazing Websites">
+                <div class="work__text">
+                  <div class="work__title">
+                    10 Amazing Websites
+                  </div>
+                  <time class="work__date">June 15, 2012</time>
+                </div>
+              </a>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer ears">
+    <div class="container">
+      <div class="footer__inner ">
+        <div class="footer__item">
+          <div class="footer__title">
+            About Jetro
+          </div>
+          <div class="footer__text-wrap">
+            <p class="footer__text">Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel.
+              Urbanitas adolescens vim te, per at tritani aperiri.
+              Adhuc invenire convenire his ea. Id mei vitae denique, in eam
+              commodo veritus disputando.
+            </p>
+            <p>Pro et erant delicata, eu vim essent imperdiet accommodare,
+              ictas deseruisse ius an. Solet everti definitionem id ius,
+              sonet oporteat cu vim.
+            </p>
+          </div>
+        </div>
+
+        <div class="footer__item footer__item--widget">
+          <div class="footer__title">
+            Twitter Widget
+          </div>
+          <div class="footer__text-wrap">
+            <div class="footer__text">
+              <div>
+                <a href="#" class="footer__link">@pixelmater</a>
+                What an awesome design with great functionality :)
+                <span class="footer__link footer__link--ago">about 1 hour ago</span>
+              </div>
+              <div class="footer__text">
+                <a href="#" class="footer__link">@designdude</a>
+                What an awesome design with great functionality :)
+                <span class="footer__link footer__link--ago">about 2 hour ago</span>
+              </div>
+              <div class="footer__text">
+                Follow <a href="#" class="footer__link">@bestpsdfreebies</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__item footer__item--contact">
+          <div class="footer__title">
+            Contact Us
+          </div>
+          <p class="footer__text">
+            Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel.
+            Urbanitas adolescens vim te, per at tritani aperiri.
+          </p>
+          <address class="footer__address">
+            <a class="footer__connection" href="mailto:information@jetro.com">information@jetro.com</a>
+            <a class="footer__connection" href="tel:1.222.333.4444">1.222.333.4444</a>
+            <ul class="footer__social">
+              <a class="footer__social-link" href="#"><img src="images/social-1.png" alt="facebook"></a>
+              <a class="footer__social-link" href="#"><img src="images/social-2.png" alt="twitter"></a>
+              <a class="footer__social-link" href="#"><img src="images/social-3.png" alt="email"></a>
+              <a class="footer__social-link" href="#"><img src="images/social-4.png" alt="rss"></a>
+              <a class="footer__social-link" href="#"><img src="images/social-5.png" alt="vimeo"></a>
+            </ul>
+          </address>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
